@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+hr {
+    border: 0;
+    background-color: white;
+}
+
+h1 {
+    padding: 10px;
+    color: white;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.center {
+    text-align: center;
+    /*These options are for the div to be visible in the example, the important is the first*/
+    border:1px solid black;
+    width: auto;
+    height: 50px;
+}
+
+.cmb {
+    display: block;
+    margin: 0 auto;
+}
+  
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
